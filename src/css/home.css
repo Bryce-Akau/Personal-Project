@@ -1,0 +1,35 @@
+/* .homeLink > img {
+    width: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 50px;
+} */
+
+.link {
+    display: block;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    color: darkturquoise;
+}
+
+.sub {
+    /* display: flex; */
+    position: fixed;
+    padding: 10px;
+    margin-left: 20px;
+    height: 83vh;
+    font-size: 25px;
+    width: 10vw;
+    border: black solid 1px;
+    background-color: pink;
+}
+
+.logo {
+    /* position: fixed; */
+    width: 100%;
+    left: 0;
+}

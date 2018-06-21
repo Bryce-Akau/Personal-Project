@@ -1,0 +1,47 @@
+.about {
+    width: 80vw;
+    /* display: inline; */
+    margin-left: 10vw;
+    align-items: center;
+}
+
+.about > .inner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jake {
+    width: 30%;
+    padding-top: -100px;
+    /* gives the image the gray shadow */
+    box-shadow: 3px 3px gray;
+    /* rounds off the images corners */
+    border-radius: 5px;
+}
+
+.about > .inner > h1 {
+    display: inline-flex;
+    font-size: 36px;
+    margin: 0 auto;
+}
+.about > .inner > h2 {
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.about > .inner > p {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.about > .inner > h3 {
+    font-size: 18px;
+    padding-top: 3px;
+    margin: 0 auto;
+}

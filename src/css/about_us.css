@@ -20,6 +20,7 @@
     box-shadow: 3px 3px gray;
     /* rounds off the images corners */
     border-radius: 5px;
+    min-height: 200px;
 }
 
 .about > .inner > h1 {

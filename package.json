@@ -6,12 +6,15 @@
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
+    "cloudinary": "^1.11.0",
+    "create-react-class": "^15.6.3",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
     "massive": "^5.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.0",
+    "react-dropzone": "^4.2.11",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
@@ -21,7 +24,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "now-start": "node server/index.js",
+    "deploy": "now --public --dotenv=.env.prod -d"
+  },
+  "now": {
+    "alias": "personal-project-jm"
   },
   "proxy": {
     "/callback": {
@@ -29,6 +37,9 @@
     },
     "/api": {
       "target": "http://localhost:3579"
+    },
+    " ": {
+      "target": "https://www.instagram.com"
     }
   }
 }

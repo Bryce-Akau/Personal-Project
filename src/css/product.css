@@ -1,0 +1,18 @@
+.products {
+    display: flex;
+    padding-top: 0;
+    background-color: white;
+}
+
+.products > .fn1, .fn2, .fn3  {
+    display: flex;
+}
+
+.fn1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fn2 {
+    justify-content: space-between;
+}

@@ -1,9 +1,11 @@
-.home {
-    margin-left: 200px
-}
+/* .home {
+    margin-left: 200px;
+} */
 
 .App {
     display: flex;
+    min-height: 99vh;
+    position: relative;
 }
 
 a {

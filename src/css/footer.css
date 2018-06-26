@@ -1,0 +1,21 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    /* background-color: black; */
+}
+
+.footer > div {
+    margin: 0 auto;
+    width: 85%;
+    /* color: aqua; */
+}
+
+p {
+    font-size: 10px;
+}
+
+.insta {
+    width: 1.5%;
+    height: 1.5%;
+}

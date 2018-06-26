@@ -22,6 +22,7 @@ module.exports = {
             const userData = response.data
             const db = req.app.get('db')
             db.find_user({
+                // console.log('dbdbdbdbdbd', db)
                 auth0_id:userData.sub
             }).then(user => {
                 console.log('---------------------->', user)

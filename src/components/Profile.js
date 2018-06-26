@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom'
 import { loginUser, logoutUser } from '../ducks/reducer';
 import '../css/profile.css';
 import axios from 'axios';
@@ -53,4 +54,4 @@ const mapDispatchToProps = {
   logoutUser,
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Profile);
+export default withRouter (connect(mapStateToProps, mapDispatchToProps)(Profile));

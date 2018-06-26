@@ -6,6 +6,7 @@ import Gallery from './components/Gallery';
 import Reviews from './components/Reviews';
 import Blogs from './components/Blogs';
 import Order from './components/Order';
+import Footer from './components/Footer';
 
 export default (
     <div>
@@ -15,7 +16,8 @@ export default (
             <Route path="/gallery" component={Gallery} />
             <Route path="/review" component={Reviews} />
             <Route path="/blog" component={Blogs} />
-            <Route path="/orders" components={Order} />
+            <Route path="/orders" component={Order} />
+            <Route path="https://www.instagram.com" components={Footer} />
         </Switch>
     </div>
 )

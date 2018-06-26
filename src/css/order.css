@@ -1,0 +1,77 @@
+.personal {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    right: 0;
+    border: black solid 5px;
+    max-height: 50vh;
+    max-width: 70vw;
+    margin: auto;
+    background-color:white;
+}
+
+.inputForm > h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 50px;
+    background-color: black;
+    color: aqua;
+    font-size: 40px;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+}
+.line {
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 100px; */
+}
+/* .one {
+ background: green;
+}
+.two {
+    background: pink;
+
+}
+.three {
+    background: aqua;
+} */
+
+.personal > .line1, .line2, .line3 {
+    display: flex;
+}
+
+.line1 > div > .zip {
+    width: 50px;
+}
+
+.fn {
+    margin: 5px;
+    display: inline-block;
+    font-size: 23px;
+}
+
+.line1{
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 881px){
+    .line {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* height: 300px; */
+    }
+    .personal {
+        min-height: 50%;
+        max-height: 85%;
+    }
+}

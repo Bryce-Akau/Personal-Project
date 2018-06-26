@@ -15,7 +15,7 @@ function Header(){
                 </Link>
                 <Link to="/about" className="link">About</Link> 
                 <Link to="/gallery" className="link">Gallery</Link>
-                <Link to="/blogs" className="link">Blogs</Link>
+                {/* <Link to="/blogs" className="link">Blogs</Link> */}
                 <Link to="/reviews" className="link">Reviews</Link>
                 <Link to="/orders" className='link'>Order Here</Link>
                 <a href={auth0LoginUrl}>Login</a>

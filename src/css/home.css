@@ -5,6 +5,19 @@
     margin-left: 50px;
 } */
 
+.home {
+   min-height: 150vh;
+   min-width: 100vw;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.home > div.sliders {
+    margin: 0 auto;
+}
+
 .link {
     display: block;
     margin-bottom: 40px;
@@ -24,8 +37,8 @@
     height: 83vh;
     font-size: 25px;
     width: 10vw;
-    border: black solid 1px;
-    background-color: pink;
+    border: black solid 3px;
+    background-color: white;
 }
 
 .logo {
